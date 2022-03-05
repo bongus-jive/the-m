@@ -1,3 +1,4 @@
+local ou = update
 local t = 0
 
 function update(dt, ...)
@@ -12,7 +13,7 @@ function update(dt, ...)
 		position = {0, 5},
 		transformation = {
 			{math.abs(t-1), 0, 0},
-			{0, 1, 0},
+			{0.25, 1, 0},
 			{0, 0, 1}
 		},
 		scale = 0.2
