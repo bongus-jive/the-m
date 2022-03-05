@@ -1,11 +1,4 @@
-local oi = init
-local ou = update
-
-function init()
-	oi()
-	
-	t = 0
-end
+local t = 0
 
 function update(dt, ...)
 	ou(dt, ...)
